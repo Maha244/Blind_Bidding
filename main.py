@@ -3,12 +3,12 @@ import os
 clearConsole = lambda: print('\n' * 150)
 from art import logo
 print(logo)
-#HINT: You can call clear() to clear the output in the console.
+
 
 bids = {}
 end_program = False
 
-# bidding_record = {"Angela": 123, "James": 321} == bids
+# bidding_record = {"Maha": 123, "James": 321} == bids
 def find_highest_bidder(bidding_record):
     largest_bid = 0
     winner = ""
